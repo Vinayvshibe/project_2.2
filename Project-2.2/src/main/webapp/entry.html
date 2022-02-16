@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Primary Entry form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="container">
+		<div class="top"> 
+			<div class="cl1">
+				<h3>FlyAway</h3>
+			</div>
+			<div class="cl9">
+				<h3>FlyAway a safest way to fly across the Globe</h3>
+			</div>
+		</div>
+		<div class="sec2">
+			<form action="flyaways" method="get">
+			<h2>Enter your flights details here</h2>
+				<table>
+					<tr>
+						<th><label for="date">Date of travel:</label></th>
+						<th><input type="date" name="date" min="2022-03-01" max="2022-05-28"></th>
+					</tr>
+					<tr>
+						<th><label for="start">Source:</label></th>
+						<th><select name="start">
+					<option value="Mumbai">Mumbai</option>
+					<option value="Pune">Pune</option>
+				</select></th>
+					</tr>
+					<tr>
+						<th><label for="destination">Destination:</label></th>
+						<th><select name="destination">
+					<option value="Delhi">Delhi</option>
+					<option value="Hyderabad">Hyderabad</option>
+					<option value="Bengaluru">Bengaluru</option>
+					<option value="Goa">Goa</option>
+					<option value="Chennai">Chennai</option>
+					<option value="Kolkata">Kolkata</option>
+				</select></th>
+					</tr>
+					<tr>
+						<th><label for="source">Airlines:</label></th>
+						<th><select name="source">
+					<option value="SpiceJet">SpiceJet</option>
+					<option value="IndiGo">IndiGo</option>
+					<option value="GoAir">GoAir</option>
+					<option value="Vistara">Vistara</option>
+					<option value="AirAsia">AirAsia</option>
+					<option value="TruJet">TruJet</option>
+				</select></th>
+					</tr>
+					<tr>
+						<th><label for="seats">Number of seats:</label></th>
+						<th><input type="Number" name="seats" value="1" min="1"></th>
+					</tr>
+					<tr>
+						<th><button type="submit">Submit</button></th>
+						<th><button type="reset">Reset</button></th>
+					</tr>
+					<tr>
+					
+						
+					</tr>
+
+				</table>
+
+				
+			</form>
+			<a href="adminlogin.jsp">Admin Login</a>
+					
+		</div>
+	</div>
+</body>
+</html>

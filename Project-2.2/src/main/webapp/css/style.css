@@ -1,0 +1,75 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.sec1 h2 {
+	margin: 50px;
+}
+.container {
+	width: 60%;
+	justify-content: center;
+	margin-right: auto;
+	margin-left: 20%;
+	border: 0.5px solid black;
+}
+.container .top {
+	height: 80px;
+	background-color: gray;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.container .top .cl1 {
+	width: 10%;
+	border: 1px solid black;
+	padding: 20px;
+	border-radius: 50%;
+	color: white;
+	background-color: skyblue;
+}
+.container .top .cl9 {
+	/*width: 90%;*/
+	border: 1px solid black;
+	padding: 20px;
+	color: skyblue;
+}
+.container .sec1 {
+	text-align: center;
+	margin: 20px;
+}
+.container .sec1 h1 {
+	margin: 50px;
+}
+.container .sec1 a {
+	margin: 20px;
+	font-size: 30px;
+	text-decoration: none;
+}
+.container .sec2 a {
+	margin: 20px;
+	font-size: 30px;
+}
+.sec2 {
+	text-align: center;
+	padding: 20px;
+}
+.sec2 table {
+	border: 1px solid black;
+	margin: 50px auto 50px;
+	width: 60%;
+	padding: 10px;
+}
+.sec2 table label {
+	margin: 10px;
+	float: left;
+}
+.sec2 table input {
+	width: 70%;
+}
+.sec2 table select {
+	width: 70%;
+}
+.sec2 table tr:Hover {
+	color: royalblue;
+	background-color: #eee;
+}
